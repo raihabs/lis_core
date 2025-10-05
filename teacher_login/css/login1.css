@@ -1,0 +1,164 @@
+
+body{
+  font-family:  "Nunito", sans-serif;
+  background: #ccc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body:before {
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient( #ffffff 20%,  #78caa8 100%);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+
+/* Form */
+.form {
+    top:0;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    height: 335px;
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 8px 31px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+.form .thumbnail{
+    background: #62a189;
+    width: 100px;
+    height: 100px;
+    margin: -61px auto 23px;
+    padding: 52px 32px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    box-sizing: border-box;
+}
+
+.form .thumbnail img {
+    display: block;
+    margin: -42px -25px;
+    width: 86px;
+    border-radius: 100%;
+  }
+
+  /* icon-left */
+  .hidden{
+    display: hidden;
+  }
+
+/* username and password icon */
+  #input-group .fa-user{
+    position: absolute;
+    top: 34%;
+    left: 8%;
+  }
+
+#input-group .fa-lock{
+    position: absolute;
+    top: 52%;
+    left: 8%;
+  }
+
+
+
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    padding: 8px;
+    padding-left: 43px;
+    padding-right: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.form input[type="submit"] {
+    outline: 0;
+    border: 0;
+    background: #4f8d75;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .form input[type="submit"]:hover{
+    background: linear-gradient(90deg, #46856d 0%, #6bbd9d 0%, #6bbd9d 5%, #46856d 100%);
+    /* background: linear-gradient(90deg, rgba(57,37,160,1) 0%, rgba(92,74,199,1) 6%, rgba(91,73,197,1) 95%, rgba(57,37,160,1) 100%); */
+  }
+
+  -form button {
+    outline: 0;
+    background-color: #217756;
+    /* background: linear-gradient(90deg, rgba(35,24,92,1) 0%, rgba(92,74,199,1) 40%, rgba(91,73,197,1) 60%, rgba(35,24,92,1) 100%); */
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+
+  .form .message a {
+    color: #217756;
+    text-decoration: none;
+  }
+  
+  .form .register-form {
+    display: none;
+  }
+  
+  .container {
+    position: relative;
+    display: block;
+    z-index: 1;
+    max-width: 90px;
+    margin: 96px 0 0px 0px;
+  }
+
+  .container:before,
+  .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* END Form */

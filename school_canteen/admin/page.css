@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ .product_container{
+  min-height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+ .display-content{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  margin: 10px !important;
+}
+
+ .display{
+  position: relative !important;
+  background: #fff !important;
+  max-width: 325px !important;
+  width: 325px !important;
+  height: auto !important;
+  margin: 15px !important;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 20%) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+ .display-image{
+  max-height: 200px !important;
+  
+}
+
+ .display-image img{
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+ .display-info{
+  position: relative !important;
+  color: #222 !important;
+  padding: 10px 20px 20px !important;
+}
+
+ .display-info h3{
+  font-size: 0.8em !important;
+  font-weight: 800 !important;
+  margin-bottom: 5px !important;
+}
+
+ .display-info p{
+  font-size: 0.7em !important;
+  margin-bottom: 5px !important;
+}
+
+ .part{
+  width: 800px; display:inline-block;
+  text-align: center !important;
+  margin: 30px 30px 60px !important;
+  user-select: none !important;
+}
+
+ .part li{
+  display: inline-block !important;
+  margin: 5px !important;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%) !important;
+}
+
+ .part li a{
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 1.2em !important;
+  line-height: 45px !important;
+}
+
+
+.previous-section, .next-section{
+  background: #8f00ff  !important;
+  width: 80px !important;
+  border-radius: 45px !important;
+  cursor: pointer !important;
+  transition: 0.3s ease !important;
+}
+
+ .previous-section:hover{
+  transform: translateX(-5px) !important;
+}
+
+ .next-section:hover{
+  transform: translateX(5px) !important;
+}
+
+ .current-section, .dots{
+  background: #ccc !important;
+  width: 45px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+}
+
+
+.purple{
+  background: #8f00ff !important;
+}
+
+
+ .disable{
+  background: #ccc !important;
+}
+      
